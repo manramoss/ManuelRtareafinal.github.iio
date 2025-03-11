@@ -1,0 +1,86 @@
+/* estilos.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: #3339e6;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #363ff6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.imagen-principal {
+    width: 100%; /* La imagen ocupará el 100% del contenedor */
+    max-width: 600px; /* Evita que sea demasiado grande */
+    display: block; /* Para evitar espacios en línea */
+    margin: 10px auto; /* Centra la imagen horizontalmente */
+    border-radius: 8px; /* Bordes redondeados para un mejor diseño */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para resaltar */
+}
+
+/* Encabezado */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #084093;
+    color: white;
+    border-radius: 8px 8px 0 0;
+}
+
+.logo {
+    height: 50px; /* Ajusta la altura */
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Cambia de color al pasar el ratón */
+}
+
+/* Secciones */
+.categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+.categories ul li a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.categories ul li a:hover {
+    color: #007bff; /* Azul al pasar el ratón */
+}
+
+/* Pie de página */
+.f
